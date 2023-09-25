@@ -12,10 +12,6 @@ phases:
             - echo "Post build phase"
 artifacts:
     files:
-        - css/
-        - images/
-        - fonts/
-        - js/
         - scripts/install_dependencies
         - scripts/start_server
         - scripts/stop_server
