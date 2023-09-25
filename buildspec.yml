@@ -12,7 +12,7 @@ phases:
               git clone -b master https://github.com/armaanroohi/code_deploy_demo-main.git /tmp/deployment
 
               # Copy the built files to the web server directory
-              sudo rsync -av /tmp/deployment/ /var/www/html/
+              sudo cp -r /tmp/deployment/* /var/www/html/
 
               # Clean up the temporary directory
               rm -rf /tmp/deployment
