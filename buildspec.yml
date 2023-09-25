@@ -5,8 +5,8 @@ phases:
         commands:
             - echo "Build block"
             - ls
-            - echo "Running tests to check if "Congratulations" present in index.html file"
-            - grep "Congratulations" index.html
+            - echo "Running tests to check if "Job Details" present in index.html file"
+            - grep "Job Details" index.html
     post_build:
         commands:
             - echo "Post build phase"
