@@ -14,7 +14,7 @@ phases:
               # Clone the GitHub repository, build, and deploy
         
               # Clone the repository to a temporary directory
-              git clone https://github.com/armaanroohi/code_deploy_demo-main.git /tmp/deployment
+              git clone -b master https://github.com/armaanroohi/code_deploy_demo-main.git /tmp/deployment
         
               # Optionally, build your project (if needed)
               # Example for npm-based project:
