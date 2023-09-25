@@ -3,23 +3,20 @@ version: 0.2
 phases: 
     build:
         commands:
-		- echo "Post build phase"
-		- |
-         
+            - echo "Post build phase"
+            - |
               # Deployment Script
               # Clone the GitHub repository, build, and deploy
-        
+
               # Clone the repository to a temporary directory
               git clone -b master https://github.com/armaanroohi/code_deploy_demo-main.git /tmp/deployment
-        
-                      
+
               # Copy the built files to the web server directory
               sudo rsync -av /tmp/deployment/ /var/www/html/
-        
+
               # Clean up the temporary directory
               rm -rf /tmp/deployment
-        
-              
+
     post_build:
         commands:
             - echo "Post-build phase"
