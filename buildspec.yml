@@ -3,8 +3,8 @@ version: 0.2
 phases: 
     build:
         commands:
-			- echo "Post build phase"
-			- |
+		- echo "Post build phase"
+		- |
          
               # Deployment Script
               # Clone the GitHub repository, build, and deploy
