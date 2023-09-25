@@ -3,10 +3,6 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-  - source: /about.html
-    destination: /var/www/html/
-  - source: /contact.html
-    destination: /var/www/html/
   - source: /css
     destination: /var/www/
   - source: /fonts
