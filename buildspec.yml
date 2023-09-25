@@ -17,10 +17,10 @@ artifacts:
         - scripts/stop_server
         - index.html
         - appspec.yml
-        - css
-        - images
-        - fonts
-        - js
+        - css/
+        - images/
+        - fonts/
+        - js/
         
         
     discard-paths: yes
