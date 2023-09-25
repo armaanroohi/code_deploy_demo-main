@@ -3,6 +3,10 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+   - source: /css
+    destination: /var/www/html/css
+  - source: /js
+    destination: /var/www/html/js
 hooks:
   BeforeInstall:
     - location: install_dependencies
