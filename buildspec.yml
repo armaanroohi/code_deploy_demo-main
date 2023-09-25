@@ -16,7 +16,9 @@ artifacts:
         - scripts/start_server
         - scripts/stop_server
         - index.html
-        - appspec.yml      
+        - appspec.yml  
+        - css/*
+        - js/*
     discard-paths: yes
 
             
